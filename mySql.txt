@@ -1,0 +1,29 @@
+use jadrn013;
+
+drop table if exists runner;
+
+create table runner(
+    fname varchar(50) NOT NULL,
+    mname varchar(50),
+    lname varchar(50) NOT NULL,
+    address1 varchar(100) NOT NULL,
+    address2 varchar(100) ,
+    fileupload varchar(50) NOT NULL,
+gender varchar(10) Not NULL,
+    city varchar(30) NOT NULL,
+    state varchar(2) NOT NULL,
+    zip varchar(5) NOT NULL,
+    phone varchar(20) NOT NULL,
+    email varchar(50) NOT NULL,
+      dob  varchar(50) NOT NULL,
+       Experience varchar(50) NOT NULL,
+       Category varchar(50) NOT NULL,
+       medicalCondition varchar(200) );
+INSERT INTO runner(fname,mname,lname,address1 ,address2 ,fileupload, gender ,city ,state ,zip,phone,email , dob ,Experience ,Category ,medicalCondition) VALUES('a','a','a','a','a','aadgskg','Female','CA','CA','22222','(222)222-2211','h@h.com','12/11/1993','Experienced','Adult','ss');
+
+
+select Category,concat(lname,',',fname),fileupload,dob,Experience from runner order by CASE
+     WHEN Category='Teen' THEN 1
+     WHEN  Category='Adult' THEN 2
+     WHEN  Category='Senior' THEN 3
+     END, lname asc;

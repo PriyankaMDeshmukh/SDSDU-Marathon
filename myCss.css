@@ -1,0 +1,266 @@
+
+/*
+Deshmukh, Priyanka
+Assignment 3
+Class Account: jadrn013
+Red id: 822066226
+*/
+.sdsu-header,.sdsu-headerReg {
+  display: flex;
+  justify-content: center;
+
+  font-size: 54px;
+  letter-spacing: -5px;
+
+}
+.sdsu-header p{
+  -webkit-transition-duration:transform 0.3s ease-out  ;
+  transition: font-size  1.2s;
+  -webkit-backface-visibility: hidden;
+}
+.sdsu-marathon-header p{
+  -webkit-transition-duration:transform 0.3s ease-out  ;
+  transition: font-size  1.2s;
+  -webkit-backface-visibility: hidden;
+}
+.sdsu-marathon-header,.sdsu-marathon-headerReg{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+
+  margin-top: -20px;
+
+  font-size: 40px;
+  -webkit-transition-duration: transform 0.3s ease-out ;
+  transition: font-size  1.2s;
+  -webkit-backface-visibility: hidden;
+
+
+}
+
+.navbar-fixed-top{
+  background: white
+}
+.shrink {
+  font-size: 32px;
+
+  font-weight: normal;
+  letter-spacing:normal;
+  white-space: nowrap;
+}
+.grow{
+  font-size: 44px;
+
+  font-weight: bold;
+}
+.catchphrase{
+  background: #990000;
+  width: 100%;
+  height: 70px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+
+  margin-top: 120px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  margin-bottom: 20px;
+
+}
+.catchphrase p{
+  padding-top: 20px;
+}
+.getting-started{
+
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#profilePic{
+  border: solid
+}
+#profilePicM{
+  display:none
+}
+.textarea {
+  max-width: 100%;
+  max-height: 100%;
+}
+.textarea {
+  max-width: 100%;
+  max-height: 100%;
+}
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+}
+#getting-started {
+  display: flex;
+  justify-content: center;
+}
+#getting-started button {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  padding: 2px;
+}
+
+/*hide all span error messages*/
+.required+span,.requiredDropDown+span{
+  display: none;
+}
+
+label span{
+  padding-left: 4px;
+}
+span{
+
+  color: red
+}
+
+.ageLimit,.invalidDob,.invalidPhone,.genderNotSel,.validZip,.invalidEmail,.invalidFile,.noUpload,.size,.dubPhone,.dubEmail{
+  display: none;
+}
+.carousel-inner > .item > img {
+
+
+}
+.flexContainer{
+  display: flex;
+}
+.FlexItem{
+  flex: 1;
+  height: 179px;
+  width: 250px;
+  margin: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 6px -6px #777;
+}
+.FlexItem h1{
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.FlexItem {
+  padding-bottom:  240px;
+}
+.carousel .item {
+  height: 600px;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+.FlexItem h2{
+  padding-top: 20px;
+  text-align: center;
+}
+.slidebar img {
+  width:40px;
+  height: auto;
+  display: inline;
+  margin: 2px;
+}
+.container .flexCon{
+  display: flex;
+  justify-content: space-around;
+}
+.flexItemMain3{
+  text-align: center;
+  margin-left: 10%;
+  padding: 60px;
+}
+.flexItemMain1{
+  float: left;
+  width: 20%;
+
+}
+.flexItemMain2{
+  flex: 4;
+  /*float: left;
+  width: 80%;*/
+
+}
+h1{
+  font-size: 3em;
+  color: #990000
+}
+.container{
+  margin-top: 50px;
+
+}
+.slidebar img:hover {
+  cursor: pointer;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+}
+.footer p{
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+.whyRun h2{
+  text-align: left;
+  font-size: 40px;
+}
+.whyRun p{
+  text-align: left;
+  font-size: 20px;
+}
+.whyRun h1{
+  text-decoration: underline;
+}
+.flexItemMain3 p{
+  font-size: 40px;
+  text-align: center;
+
+
+}
+.flexItemMain3 p:last-child{
+  font-size: 30px;
+  text-align: center;
+
+  color: blue;
+}
+.flexItemMain3 h2{
+
+  text-align: center;
+  font-weight: bold;
+}
+.flexItemMain3 button{
+
+  margin: 0 auto;
+  width: 100px;
+
+}
+.flexItemMain3{
+  flex:1;
+  align-items: center;
+}
+
+#myFormloader{
+  text-align: center;
+
+  position: fixed;
+  z-index:5000;
+  background: none no-repeat scroll 50% 50% rgba(255, 255, 255, 0.75);
+  width: 100%;
+  height: 100%;
+  display:none;
+  top:0;
+  bottom:0;
+
+}
+#myFormloader span{
+  margin-right: 5px;
+  position: relative;
+  top: 200px;
+  color: black;
+}

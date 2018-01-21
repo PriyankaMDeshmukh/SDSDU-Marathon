@@ -1,0 +1,62 @@
+/*<!--
+Deshmukh, Priyanka
+Assignment 3
+Class Account: jadrn013
+ Red id: 822066226 -->*/
+img{
+  width: 100px;
+  height: auto;
+}
+
+tr:first-child{
+  font-weight: bold;
+  font-size: 27px;
+  color: #990000;
+
+}
+table{
+
+  margin: 0 auto;
+}
+.center{
+    margin: 0 auto;
+
+    text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+
+}
+.invalidpwd{
+  display: none;
+  color: red;
+  margin-bottom: 30px;
+}
+.NT,.NS,.NA{
+  display: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+table td,tr{
+text-align: center;
+}
+form {
+  width: 650px;
+  margin-left: 278px;
+}
+.reset,.submit{
+  width: 100%;
+}
+table{
+  margin-top:50px;
+    margin-bottom: 50px;
+}
+table {
+    table-layout: fixed;
+
+}
+td,th{
+   word-break:keep-all;
+}
